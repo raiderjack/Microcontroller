@@ -15,7 +15,6 @@ def wheel(pos):
     pos -= 170
     return (pos * 3, 0, 255 - pos * 3)
 
-
 def rainbow_cycle(wait):
    for j in range(255):
         for i in range(10):
